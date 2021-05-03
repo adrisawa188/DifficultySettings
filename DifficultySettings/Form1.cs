@@ -26,19 +26,19 @@ namespace DifficultySettings
         private void easyButton_Click(object sender, EventArgs e)
         {
             heroName = userInput.Text;
-            difficultyLevel = "Easy";
+            difficultyLevel = "easy";
             
             
         }
 
         private void mediumButton_Click(object sender, EventArgs e)
         {
-            difficultyLevel = "Medium";
+            difficultyLevel = "medium";
         }
 
         private void hardButton_Click(object sender, EventArgs e)
         {
-            difficultyLevel = "Hard";
+            difficultyLevel = "hard";
         }
         private void startButton_Click(object sender, EventArgs e)
         {

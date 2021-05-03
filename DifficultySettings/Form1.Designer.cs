@@ -29,6 +29,7 @@ namespace DifficultySettings
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.nameLabel = new System.Windows.Forms.Label();
             this.userInput = new System.Windows.Forms.TextBox();
             this.difficultyMessage = new System.Windows.Forms.Label();
@@ -128,7 +129,7 @@ namespace DifficultySettings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(669, 459);
             this.Controls.Add(this.outputLabel);
             this.Controls.Add(this.startButton);
             this.Controls.Add(this.mediumButton);
@@ -137,6 +138,7 @@ namespace DifficultySettings
             this.Controls.Add(this.difficultyMessage);
             this.Controls.Add(this.userInput);
             this.Controls.Add(this.nameLabel);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Hero Quest ";
             this.ResumeLayout(false);
